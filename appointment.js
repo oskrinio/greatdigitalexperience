@@ -111,7 +111,7 @@ function saveData(data, step, obj) {
   return data;
 }
 
-function saveDataForm(data) {
+function saveDataForm() {
   let _datos = Object.assign({}, data);
 
   fetch('/wp-json/data_form/v1/dataform', {
